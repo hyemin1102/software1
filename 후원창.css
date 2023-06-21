@@ -1,0 +1,106 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.donation-container {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+h2 {
+  color: #fff;
+  margin: 0;
+}
+
+p {
+  color: #666;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h3 {
+  color: #333;
+}
+
+.donation-form {
+  margin-top: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+section {
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.donation-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.donation-links a {
+  display: inline-block;
+  margin: 10px;
+}
+
+.donation-links img {
+  width: 140px;
+  height: ;
+}
+
+

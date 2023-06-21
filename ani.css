@@ -1,0 +1,367 @@
+
+body {
+  letter-spacing: 0.0625em;
+}
+
+/*동물이름*/
+h2 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+/*홈버튼*/
+.navbar-brand {
+  padding-top: var(--bs-navbar-brand-padding-y);
+  padding-bottom: var(--bs-navbar-brand-padding-y);
+  margin-right: var(--bs-navbar-brand-margin-end);
+  font-size: var(--bs-navbar-brand-font-size);
+  color: var(--bs-navbar-brand-color);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/*네비게이션*/
+body {
+  padding-top: 35px; /* 고정 네비게이션 바와 겹치지 않도록 본문의 여백을 설정합니다. */
+}
+
+.navbar {
+  background-color: #fff; /* 네비게이션 바 배경색을 흰색으로 설정합니다. */
+}
+
+.navbar-brand {
+  color: #000000; /* 네비게이션 바 로고 텍스트 색상을 검정색으로 설정합니다. */
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.navbar-toggler {
+  border-color: #fff; /* 메뉴 버튼 테두리 색상을 흰색으로 설정합니다. */
+}
+
+.navbar-nav .nav-link {
+  color: #000000; /* 네비게이션 메뉴 링크 텍스트 색상을 검정색으로 설정합니다. */
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #4d4d4d; /* 네비게이션 메뉴 링크에 호버 또는 포커스 시 텍스트 색상을 회색으로 설정합니다. */
+}
+
+#navbarResponsive {
+  justify-content: flex-end;
+}
+
+.nav-link {
+  font-size: large;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  float: inline-start;
+  font: bolder;
+}
+
+
+/*이미지위엥텍스트*/
+.img{
+  position: relative;
+  background-image: url(./판다.jpeg);                                                               
+  background-position: center;                                                   
+  height: 80vh;
+  width: 80vh;
+  background-size: cover;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-cover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.366);                                                                 
+    z-index:1;
+}
+
+.img .content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);                                                                   
+    font-size:2rem;
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
+
+.img_1 {
+  position: relative;
+  background-image: url(./polar1.jpeg);                                                               
+  background-position: center;                                                   
+  height: 80vh;
+  width: 80vh;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.img_1 .content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);                                                                   
+    font-size:2rem;
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
+
+.img_2 {
+  position: relative;
+  background-image: url(./거북이.jpeg);        
+  background-position: center;                                                   
+  height: 80vh;
+  width: 80vh;
+  background-size: cover;
+  align-items: center;
+  justify-content: space-between;
+}
+.img_2 .content{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);                                                                   
+  font-size:2rem;
+  color: white;
+  z-index: 2;
+  text-align: center;
+}
+
+
+
+.img_3 .content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);                                                                   
+    font-size:2rem;
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
+.img_3 {
+  position: relative;
+  background-image: url(./호랑이.jpeg);                                                               
+  height: 80vh;
+  width: 80vh;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.img_3 .content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);                                                                   
+    font-size:2rem;
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
+.img_4 {
+  position: relative;
+  background-image: url(./악어.png);                                                               
+  height: 80vh;
+  width: 80vh;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+
+.img_4 .content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);                                                                   
+    font-size:2rem;
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
+.img_5 {
+  position: relative;
+  background-image: url(./오랑우탄.png);                                                               
+  height: 80vh;
+  width: 80vh;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+
+.img_5 .content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);                                                                   
+    font-size:2rem;
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
+
+
+/*메뉴눌렀을시*/
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.navbar {
+  position:sticky;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-top {
+  justify-content: space-between;
+}
+
+
+
+
+/*맨윗페이지*/ .masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 18rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(./북극곰.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+/*맨윗페이지 제목 꾸미기*/ 
+
+.masthead h1, .masthead .h1 {
+  font-size: 2.5rem;
+  line-height: 10rem;
+  letter-spacing: 0.8rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.295));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+
+/*맨윗페이지 텍스트 배치*/
+
+
+.align-items-center {
+  align-items: center ;
+}
+
+.top2 {
+  justify-content: center ;
+}
+
+.ddd {
+  display: flex ;
+}
+
+.text-center {
+  text-align: center ;
+}
+
+
+
+
+/*제목밑 텍스트*/
+.masthead h2, .masthead .h2 {
+  max-width: 35rem;
+  font-size: 1rem;
+  padding-bottom: 40;
+}
+.text4 {
+  color: rgba(255, 255, 255, 0.678);
+  padding-bottom: 40px;
+}
+
+/*모얼버튼*/
+.btn {
+  padding: 1.25rem 2rem;
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+.btn-color {
+  color: #fff;
+  background-color: #f1f1f154;
+}
+
+a {
+  text-decoration: underline;
+  color: #ffffffee;
+}
+
+
+
+
+
+/*why부분 배경*/
+.about-section {
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+
+.section #why {
+  padding: 10px;
+}
+#why {
+  padding: 400px 0;
+  margin: 10px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.192) 0%, rgba(0, 0, 0, 0.438) 75%, #000000 100%);
+  background-position: auto;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size:contain;
+  text-decoration: rgba(0, 0, 0, 0.3);
+}
+
+section #why h2 {
+  color: #333;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+section #why p {
+  color: #e4e4e4;
+  line-height: 2.0;
+  font-weight:bolder;
+}

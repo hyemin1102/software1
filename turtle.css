@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /* 헤더 스타일 설정 */
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    color:darkgreen
+  }
+  
+  /* 내비게이션 스타일 설정 */
+  nav {
+    background-color:darkgreen;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    padding: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ff8080;
+  }
+  
+  /* 메인 섹션 스타일 설정 */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* 푸터 스타일 설정 */
+  footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    color: #666;
+  }
+  aside {
+    align-self: flex-start; /* 수정 */
+  margin: 20px;
+  z-index: 999;
+  }
+  section#turtle h2 {
+    background-color:darkolivegreen;
+    color: #fff;
+    padding: 20px;
+  }
+  section#about h2 {
+    background-color:darkolivegreen;
+    color: #fff;
+    padding: 20px;
+  }
+  section#habitat h2 {
+    background-color:darkolivegreen;
+    color: #fff;
+    padding: 20px;
+  }
+  section#conservation h2 {
+    background-color:darkolivegreen;
+    color: #fff;
+    padding: 20px;
+  }
+  section#import h2 {
+    background-color:darkolivegreen;
+    color: #fff;
+    padding: 20px;
+  }
+  mark {
+    background-color:olive;
+    color:white;
+  }
+
+  div{ 
+    justify-content: center;
+  align-items: center;
+  }
